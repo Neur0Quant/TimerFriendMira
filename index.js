@@ -4,8 +4,8 @@ const TelegramBot = require('node-telegram-bot-api');
 const token = process.env.BOT_TOKEN;
 const bot = new TelegramBot(token, { polling: true });
 
-// Дата знакомства с Мирой: 6 сентября 2024, 19:54 МСК
-const meetingDate = new Date('2024-09-06T16:54:00.000Z'); // UTC время (МСК -3)
+// Дата знакомства с Мирой: 6 сентября 2025, 19:54 МСК
+const meetingDate = new Date('2025-09-06T16:54:00.000Z'); // UTC время (МСК -3)
 
 function formatTime(milliseconds) {
     const seconds = Math.floor(milliseconds / 1000);
